@@ -3,7 +3,7 @@ from math import sqrt
 
 
 # функ. проверяющая является ли введеное значение цифрой
-def is_num(string):
+def isNum(string):
     if string.isdigit():
         return True
     else:
@@ -17,12 +17,11 @@ def is_num(string):
 arr = []
 while True:
     a = input('введите число: ')
-
     if a == "":
         break
 
     # Проверка является ли введеное число цифрой
-    if not is_num(a):
+    if not isNum(a):
         print('Вы ввели не число')
         sys.exit()
 
