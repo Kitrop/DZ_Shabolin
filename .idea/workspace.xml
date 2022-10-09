@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9a114b5-bfd1-4b73-bbb6-35dab5429cdf" name="Changes" comment="homework completed">
-      <change afterPath="$PROJECT_DIR$/forecast.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/meteo.py" afterDir="false" />
+    <list default="true" id="d9a114b5-bfd1-4b73-bbb6-35dab5429cdf" name="Changes" comment="complete meteo and forecast">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/forecast.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meteo.py" beforeDir="false" afterPath="$PROJECT_DIR$/meteo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665303935706</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete meteo and forecast">
+      <created>1665312634346</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665312634346</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +238,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homework completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework completed" />
+    <MESSAGE value="complete meteo and forecast" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete meteo and forecast" />
   </component>
 </project>
