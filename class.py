@@ -1,13 +1,15 @@
 class Car():
-    def __init__(self, brand, maxSpeed, color):
-        self.brand = brand
-        self.maxSpeed = maxSpeed
-        self.color = color
+    def __init__(self, speed, power, health):
+        self.speed = speed
+        self.power = power
+        self.health = health
 
     def about(self):
-        print("У " + self.brand + " максимальная скорость:" + self.maxSpeed + ", самый популярный цвет у данной марки авто:" + self.color)
+        return self.speed
 
 
 
-Car1 = Car("Lamborgini", "500", "Красный")
-Car2 = Car("Lada", "150", "Серебристый")
+Car1 = Car(1, 2, 3)
+Car2 = Car(10, 2, 3)
+
+print( Car1.about() > Car2.about() )
